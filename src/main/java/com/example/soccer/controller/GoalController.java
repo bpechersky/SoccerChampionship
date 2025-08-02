@@ -10,6 +10,7 @@ import java.util.List;
 @RequestMapping("/api/goals")
 public class GoalController {
 
+
     private final GoalRepository goalRepository;
 
     public GoalController(GoalRepository goalRepository) {
